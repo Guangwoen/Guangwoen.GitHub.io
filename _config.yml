@@ -1,17 +1,15 @@
 # Site settings
-title: Daktilo
+title: 광원어디가
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  2022-03-31, im decided to start my blog life, to recording my daily, especially about coding.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://hitchhiker.ma" # the base hostname & protocol for your site
 
 author:
-  fullname: Motaquillah Maddane
+  fullname: Glisten Cui
   googleplus: https://www.google.com/+MotaquillahMaddane
-  github: kronik3r
+  github: Guangwoen
   twitter: electrik_frog
   # disqus: your_disqus_forum_shortname
 

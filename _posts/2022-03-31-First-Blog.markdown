@@ -1,13 +1,10 @@
 ---
 layout: post
-title: "My First Blog"
-subtitle: "start up"
-date: 2022-03-31 19:23:00
-categories: [daily]
+title: "My first Blog"
+subtitle: "let's get started"
+date: 2022-03-31 19:55:23
+category: [daily]
 ---
 
-# Hi, this is Guangwoen
-
-This gonna be my first blog, im going to update more blogs in the future, which will includes coding, daily life and other things
-
-let's get started!!;
+This gonna be my first Blog
+let's get started!!!
