@@ -1,17 +1,18 @@
 # Site settings
-title: 광원어디가
+title: 광원어디가 블로그
 description: >
   2022-03-31, im decided to start my blog life, to recording my daily, especially about coding.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hitchhiker.ma" # the base hostname & protocol for your site
+url: "http://guangwoen.github.io" # the base hostname & protocol for your site
 
 author:
   fullname: Glisten Cui
   googleplus: https://www.google.com/+MotaquillahMaddane
   github: Guangwoen
-  twitter: electrik_frog
   # disqus: your_disqus_forum_shortname
+
+timezone: Asia/Shanghai
 
 # google_analytics: 'UA-XXXXXXXX-X'
 
