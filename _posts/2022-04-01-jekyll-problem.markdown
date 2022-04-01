@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "jekyll 셋팅에서 생긴문제"
-title: "Timezone"
+subtitle: "Timezone"
 date: 2022-04-01 08:44:21 +0800
 categories: [bugs]
 ---
