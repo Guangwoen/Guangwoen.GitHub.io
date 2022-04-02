@@ -31,7 +31,7 @@ categories: [tools]
 * 처음보는 에러였는데 검색해보니 gcc 컴파일러 버전에 관한 문제였던것같았다.
 
 * 그래서 다시 brew 명령을 통해 최신버전의 gcc 로 reinstall 하였다. `brew reinstall gcc`
-    > 독자들의 gcc 버전이 어떤 버전인지 모르겠다면 그냥 reinstall 하는것을 추천함.
+    > 자기의 gcc 버전이 어떤 버전인지 모르겠다면 그냥 reinstall 하는것을 추천함.
 
 ## 정확한 실행 절차
 
