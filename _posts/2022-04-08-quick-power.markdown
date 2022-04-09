@@ -18,18 +18,17 @@ categories: [algorithm]
 
 * 이런 문제를 해결하기위해 문제풀이에서는 보통 quick power 알고리즘을 쓴다.
   
-  > 
-  ```cpp
-    int mul(int x, int y) { // quick power, for x ^ y
-        int result = 1, base = x;
-        while(y) {
-            if(y & 1) result = result * base;
-            base = base * base;
-            y >>= 1; // move one 'bit'
-        }
-        return result;
-    }
-    ```
+```cpp
+  int mul(int x, int y) { // quick power, for x ^ y
+      int result = 1, base = x;
+      while(y) {
+          if(y & 1) result = result * base;
+          base = base * base;
+          y >>= 1; // move one 'bit'
+      }
+      return result;
+  }
+  ```
 * 함수엔 두개의 매개변수가 있는데 각각 밑수와 지수를 대표한다. 이 알고리즘의 원리는 이렇다:
 
     >밑수가 x, 지수가 y 라고 가정했을때, x^y 는 x 를 y 곱해주는걸 뜻한다. 이때 우리가 이진법을 리용해 y 를 이진법으로 표시하여준다. 례를 들면 y := 19 일때 y = 00010011(2) 이렇게 표시하여 줄수있다.
