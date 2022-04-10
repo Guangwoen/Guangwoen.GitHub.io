@@ -32,23 +32,23 @@ categories: [machine_learning]
 
 * 주어진수치에 의하여 그릴수있는 회귀직선은 무한개가 존재하는데 그중에서 우리는 최적의 직선을 선택하여야한다. 그래서 우리는 주어진 점과 회귀직선사이의 Euclidean Distance 를 표준으로 삼아 최적의 회귀직선을 그려낼수있다. 즉 잔차(residual) 가 가장 작은 회귀직선을 선택한다.
 
-    ![residual_loss](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2015.58.50.png)
+    ![residual_loss](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2015.58.50.png)
 
 * 이공식에 의해 우리는 잔차들의 합을 구할수 있지만 주어진 점들이 회귀직선의 두쪽에 모두 분포될수있기에 정의 값과 부의 값들이 서로 소거될수가 있다.
 
 * 그래서 우리는 이렇게 잔차의 평방의 합을 쓰는 손실함수(Square Loss)라는 공식을 쓰게될수있다.
 
-  * Square Loss  ![Square_loss](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2016.08.27.png)
+  * Square Loss  ![Square_loss](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2016.08.27.png)
 
-  * Mean Square Loss ![Mean_square_loss](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2016.12.02.png)
+  * Mean Square Loss ![Mean_square_loss](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2016.12.02.png)
   
 * 위의 평균 제곱 오차 함수(Mean Square Loss) 공식에 의하여 우리는 최소이승법을 사용할수있다. 이 함수가 최소치를 가질때의 W 와 b 의 값이 바로 우리가 원하는 최적의 회귀직선의 W 와 b 인것이다.
 
 * 최소치를 구하기 위해 우리는 이 방정식에 대하여 편도함수를 구해 편도함수가 각각 0의 값을취하는곳을 구해준다.
 
-  * 편도함수: ![partial_derivative](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2017.18.13.png)
+  * 편도함수: ![partial_derivative](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2017.18.13.png)
 
-  * 해결식: ![solution](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2017.27.09.png)
+  * 해결식: ![solution](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2017.27.09.png)
 
 * 위의 해결식은 Analytical solution 인데 Closed-form solutions 으로도 해결식을 세울수 있지만 코딩에 편리하기위해 Analytical solution을 선택하는것이다.
 
@@ -85,27 +85,27 @@ categories: [machine_learning]
 
 * n개의변량의 회귀방정식에 대해 우리는 이렇게 모델링을 할수있다.
     
-    * ![modeling](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2018.10.59.png)
+    * ![modeling](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2018.10.59.png)
 
 * m개의 표본에 대하여 우린 이런 련립방정식들을 세울수 있다.
 
-    * ![modeling_](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2020.03.49.png)
+    * ![modeling_](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.03.49.png)
 
 * 행렬식으로 전환시킨다.
 
-    * ![array](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2020.06.20.png)
+    * ![array](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.06.20.png)
 
-    * 즉 이렇게 볼수 있다. ![re](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2020.23.11.png)
+    * 즉 이렇게 볼수 있다. ![re](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.23.11.png)
 
 * 이런 다변량인 경우에도 위에서의 손실함수를 쓸수있는데 다만 행렬식에 대한 계산들이 포함되여있다.
 
-    * 손실함수: ![loss](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2020.24.10.png)
+    * 손실함수: ![loss](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.24.10.png)
 
-    * ![loss_sim](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2020.25.08.png)
+    * ![loss_sim](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.25.08.png)
 
  * 손실함수가 최소치를 가지는 W의 값들, 즉 W 행렬식을 구하면 되는데 이것도 손실함수가 W에 관한 편도함수를 계산하여준다. 그럼 마지막 우리가 계산해줄 행렬식은 이렇게 된다:
     
-    * ![resu](https://github.com/Guangwoen/Guangwoen.GitHub.io/edit/main/pics/截屏2022-04-10%2020.28.30.png)
+    * ![resu](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.28.30.png)
 
 * 코드로 알아보자
 
