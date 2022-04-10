@@ -77,9 +77,9 @@ categories: [machine_learning]
 
  이러면 우리가 어떠한 x 에 대응되는 y 의 값을 구할때 이 회귀방정식에 대입하면 쉽게 그 근사치를 알아낼수가 있다.
 
- ***
+***
 
- ## 다변량 선형 회귀 - Multivariate Linear Regression
+## 다변량 선형 회귀 - Multivariate Linear Regression
 
 단변량 회귀와 달리 다변량 회귀에서는 독립변수가 1개 이상 존재한다. 따라서 대응되는 weight 를 구하는절차도 조금씩 달라지게 되지만 우리의 목표는 여전히 변량앞의 weight 와 bias 를 구해주는것이다.
 
