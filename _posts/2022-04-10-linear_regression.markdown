@@ -54,7 +54,7 @@ categories: [machine_learning]
 
 * 해결식을 python 코드로 적어본다면:
   
-  ```python
+    ```python
     import tensorflow as tf
     import numpy as np
 
@@ -71,6 +71,7 @@ categories: [machine_learning]
     b = meanY - meanX * w
 
     print("대응된 회귀방적식은: y=", round(w.numpy(), 2), "* x +", round(b.numpy(), 2))
+    ```
 
  * 위의 계산은 python 의 list 로도 할수 있을뿐만 아니라 numpy array 를 사용하여 계산할수도 있다.
 
@@ -126,3 +127,4 @@ categories: [machine_learning]
     W = W.reshape(-1)
 
     print("대응된 회귀 방정식은: Y=", round(W[1], 2), "*x1+", round(W[2], 2), "*x2+", round(W[0], 2))
+    ```
