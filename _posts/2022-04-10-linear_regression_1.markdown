@@ -65,7 +65,7 @@ categories: [machine_learning]
     meanY = tf.reduce_mean(y)
 
     sumXY = tf.reduce_sum((x - meanX) * (y - meanY))
-    sumX = tf.reduce_sum((x - meanX) * (y - meanY))
+    sumX = tf.reduce_sum((x - meanX) * (x - meanX))
 
     w = sumXY / sumX
     b = meanY - meanX * w
