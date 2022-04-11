@@ -50,7 +50,7 @@ categories: [machine_learning]
 
   * 해결식: ![solution](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2017.27.09.png)
 
-* 위의 해결식은 Analytical solution 인데 Closed-form solutions 으로도 해결식을 세울수 있지만 코딩에 편리하기위해 Analytical solution을 선택하는것이다.
+* 위의 해결식은 Analytical solution(근사한 값으로 대체하여 얻은 결과) 인데 Closed-form solutions(엄격한 계산과 추리를 통해 얻은 결과) 으로도 해결식을 세울수 있지만 코딩에 편리하기위해 Analytical solution을 선택하는것이다.
 
 * 해결식을 python 코드로 적어본다면:
   
