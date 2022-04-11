@@ -91,19 +91,19 @@ categories: [machine_learning]
 
     * ![modeling_](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.03.49.png)
 
-* 행렬식으로 전환시킨다.
+* 행렬로 전환시킨다.
 
     * ![array](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.06.20.png)
 
     * 즉 이렇게 볼수 있다. ![re](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.23.11.png)
 
-* 이런 다변량인 경우에도 위에서의 손실함수를 쓸수있는데 다만 행렬식에 대한 계산들이 포함되여있다.
+* 이런 다변량인 경우에도 위에서의 손실함수를 쓸수있는데 다만 행렬에 대한 계산들이 포함되여있다.
 
     * 손실함수: ![loss](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.24.10.png)
 
     * ![loss_sim](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.25.08.png)
 
- * 손실함수가 최소치를 가지는 W의 값들, 즉 W 행렬식을 구하면 되는데 이것도 손실함수가 W에 관한 편도함수를 계산하여준다. 그럼 마지막 우리가 계산해줄 행렬식은 이렇게 된다:
+ * 손실함수가 최소치를 가지는 W의 값들, 즉 W 행렬을 구하면 되는데 이것도 손실함수가 W에 관한 편도함수를 계산하여준다. 그럼 마지막 우리가 계산해줄 행렬은 이렇게 된다:
     
     * ![resu](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/%E6%88%AA%E5%B1%8F2022-04-10%2020.28.30.png)
 
