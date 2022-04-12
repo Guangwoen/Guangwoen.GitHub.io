@@ -22,11 +22,11 @@ categories: [machine_learning]
 
 * 단변량일 경우, 우리의 모델링은 y = W * x + b 인데 손실함수는 미지수 W 와 b 에 관한 함수가 된다. W 와 b 에 관한 편도함수를 계산해본다면:
   
-  * ![grad](041201.png)
+  * ![grad](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/041201.png)
 
 * 이때 우리는 이런 공식으로 다음 과정에서의 W 와 b 의 값을 이렇게 업데이트 해줄수 있다.
 
-  * ![upd](041202.png)
+  * ![upd](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/041202.png)
 
 * 평균 손실함수에 대해서는 계수부분에 1/n을 추가해주면 된다.
 
