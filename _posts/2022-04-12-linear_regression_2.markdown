@@ -1,6 +1,6 @@
 ---
 layouts: post
-title: "머신러닝 배우기 - 선형 회귀(2)"
+title: "머신러닝 배우기 - 선형 회귀(2)(Gradient Descent)"
 subtitle: "Machine Learning"
 date: 2022-04-12 21:21:32 +0800
 categories: [machine_learning]
