@@ -45,6 +45,7 @@ categories: [machine_learning]
 * 교차 엔트로피 손실함수를 사용할때 로지스틱함수에 e 와 손실함수에서의 ln 이 서로 소거되여 없어지기에 sigmoid 함수에 대해 도함수를 계산할 필요가 없기에 계산이 빨라질수있다.
 
     >핵심코드를 알아보자:
+    
     ```python
         learn_rate = 0.005  # 학습률
         iter = 100  # 반복회수
@@ -102,6 +103,7 @@ categories: [machine_learning]
     ![mentro](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/050304.png)
 
     >핵심코드를 알아보자:
+    
     ```python
 
     # Data
