@@ -38,9 +38,9 @@ categories: [machine_learning]
 
 * 그래서 우리는 로지스틱 회귀에서 교차 엔트로피 손실함수(Cross Entropy Loss)를 사용하게 된다.
 
-    > ![cee](01)
+    > ![cee](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/050301.png)
 
-    > ![mse](02)
+    > ![mse](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/050302.png)
 
 * 교차 엔트로피 손실함수를 사용할때 로지스틱함수에 e 와 손실함수에서의 ln 이 서로 소거되여 없어지기에 sigmoid 함수에 대해 도함수를 계산할 필요가 없기에 계산이 빨라질수있다.
 
@@ -93,13 +93,13 @@ categories: [machine_learning]
 
         > softmax()함수의 공식은 이렇다:
 
-        ![softmax](03)
+        ![softmax](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/050303.png)
 
     * Softmax 함수는 Logistic 함수가 다중분류에서의 전환이다.
 
 * 다중 분류에서의 교차 엔트로피 손실 함수는 이렇다:
   
-    ![mentro](04)
+    ![mentro](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/050304.png)
 
     >핵심코드를 알아보자:
     ```python
