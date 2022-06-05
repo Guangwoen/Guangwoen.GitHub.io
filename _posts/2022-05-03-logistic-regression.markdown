@@ -44,34 +44,34 @@ categories: [machine_learning]
 
 * 교차 엔트로피 손실함수를 사용할때 로지스틱함수에 e 와 손실함수에서의 ln 이 서로 소거되여 없어지기에 sigmoid 함수에 대해 도함수를 계산할 필요가 없기에 계산이 빨라질수있다.
 
-    >핵심코드를 알아보자:
+* 핵심코드를 알아보자:
+    
     ```python
-        learn_rate = 0.005  # 학습률
-        iter = 100  # 반복회수
+    learn_rate = 0.005  # 학습률
+    iter = 100  # 반복회수
 
-        # w 와 b 의 초기화
-        np.random.seed(612)
-        w = tf.Variable(np.random.randn())
-        b = tf.Variable(np.random.randn())
+    # w 와 b 의 초기화
+    np.random.seed(612)
+    w = tf.Variable(np.random.randn())
+    b = tf.Variable(np.random.randn())
 
-        cross_train = []  # 교차 엔트로피 손실 저장
-        acc_train = []  # 정확률 저장
+    cross_train = []  # 교차 엔트로피 손실 저장
+    acc_train = []  # 정확률 저장
 
-        for i in range(0, iter + 1):
-            with tf.GradientTape() as tape:
-                pred_train = 1 / (1 + tf.exp(-(w * x + b)))
-                Loss_train = -tf.reduce_mean(y_train * tf.math.log(pred_train) + (1 - y_train) * tf.math.log(1 - pred_train))
-                Accuracy_train = tf.reduce_mean(tf.cast(tf.equal(tf.where(pred_train < 0.5, 0, 1), y_train), tf.float32))
+    for i in range(0, iter + 1):
+        with tf.GradientTape() as tape:
+            pred_train = 1 / (1 + tf.exp(-(w * x + b)))
+            Loss_train = -tf.reduce_mean(y_train * tf.math.log(pred_train) + (1 - y_train) * tf.math.log(1 - pred_train))
+            Accuracy_train = tf.reduce_mean(tf.cast(tf.equal(tf.where(pred_train < 0.5, 0, 1), y_train), tf.float32))
 
-            cross_train.append(Loss_train)
-            acc_train.append(Accuracy_train)
+        cross_train.append(Loss_train)
+        acc_train.append(Accuracy_train)
 
-            dL_dw, dL_db = tape.gradient(Loss_train, [w, b])
+        dL_dw, dL_db = tape.gradient(Loss_train, [w, b])
 
-            # 경사하강법
-            w.assign_sub(learn_rate * dL_dw)
-            b.assign_sub(learn_rate * dL_db)
- 
+        # 경사하강법
+        w.assign_sub(learn_rate * dL_dw)
+        b.assign_sub(learn_rate * dL_db)
     ```
 
 * 다변량일 경우 선형회귀처럼 행렬에 대해 계산을 해주면 된다.
@@ -101,9 +101,9 @@ categories: [machine_learning]
   
     ![mentro](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/050304.png)
 
-    >핵심코드를 알아보자:
+* 핵심코드를 알아보자:
+    
     ```python
-
     # Data
     x0_train = np.ones(num_train).reshape(-1, 1)
     X_train = tf.cast(tf.concat([x0_train, x_train], axis=1), tf, tf.float32)
