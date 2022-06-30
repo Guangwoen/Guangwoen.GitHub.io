@@ -3,7 +3,7 @@ layout: post
 title: "머신러닝 배우기 - 로지스틱 회귀"
 subtitle: "Machine Learning"
 date: 2022-05-03 15:15:44 +0800
-categories: [machine_learning]
+categories: [AI]
 ---
 
 # 머신러닝 배우기 - 로지스틱 회귀(Logistic Regression)
