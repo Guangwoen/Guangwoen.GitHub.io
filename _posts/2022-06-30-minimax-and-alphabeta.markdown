@@ -26,7 +26,7 @@ categories: [AI]
 
 * 아래의 트리를 살펴보자
   
-    > ![mnx]()
+    > ![mnx](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/063001.png)
 
 * 여기서 0, 2, 4는 나의 차례이고 1, 3은 상대방의 차례입니다. 나의 차례에서는 최선의 선택을 해야하고 상대방의 차례에서는 나에겐 최악의 선택을 하게 된다. 영리한 상대방은 나에게 유리한 선택을 할리가 없기 때문이다. (여기서 높은 수자가 유리하고 낮은수자가 불리하다)
 
@@ -52,7 +52,7 @@ categories: [AI]
 
 * 아래의 트리를 살펴보자
 
-    > ![abg]()
+    > ![abg](https://raw.githubusercontent.com/Guangwoen/Guangwoen.GitHub.io/main/pics/063002.png)
 
 * 미니맥스 알고리즘의 진행대로 가면서 가지치기를 해본다. 검색방식은 DFS이다.
 
