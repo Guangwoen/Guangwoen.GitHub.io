@@ -3,7 +3,7 @@ layout: post
 title: "Minimax 알고리즘과 alpha-beta 가지치기"
 subtitle: "AI algorithm"
 date: 2022-06-30 23:18:10 +0800
-categories: [AI, algorithm]
+categories: [AI]
 ---
 
 # Minimax 알고리즘과 alpha-beta 가지치기
