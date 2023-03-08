@@ -9,4 +9,4 @@ categories: [AI]
 # 机器学习 - 决策树(Decision Tree)
 
 
-$\sum^8_{i=1}$
+$$\sum^8_{i=1}$$
