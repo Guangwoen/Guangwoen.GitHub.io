@@ -26,3 +26,6 @@ exclude: ["README.md", "README.html"]
 # Build settings
 highlighter: null
 markdown: kramdown
+
+kramdown:
+  math_engine: null
