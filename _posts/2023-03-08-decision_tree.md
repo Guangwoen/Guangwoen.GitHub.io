@@ -69,8 +69,8 @@ end for
 
 假定当前样本集合D中的第k类样本所占的比例为$p_k$，则D的信息熵定义为:
 
-$$
+$
     \begin{align}
         Ent(D) = - \sum
     \end{align}
-$$
+$
