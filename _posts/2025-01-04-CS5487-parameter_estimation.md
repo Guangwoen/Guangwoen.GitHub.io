@@ -35,7 +35,7 @@ $$
 - 为了方便计算，一般会使用 log 来消除一些指数操作并简化一些乘法或者除法计算，此时取 log 的似然函数将称为对数似然函数 (Log-Likelihood Function)
 - 如果取负号，此时被称为负对数似然函数 (Negative Log-Likelihood Function)
 
-此时的数据集 $D$ 是已知的，所以概率 $p(D|\theta)$ 是关于 $\theta$ 的函数，这并不是概率密度函数 (Probability Density Function)，并且不同于 $p(x)$ 的形状
+此时的数据集 $D$ 是已知的，所以概率 $p(D\|\theta)$ 是关于 $\theta$ 的函数，这并不是概率密度函数 (Probability Density Function)，并且不同于 $p(x)$ 的形状
 
 [关于 PDF, PMF 和 CDF](https://blog.csdn.net/wzgbm/article/details/51680540):
 
