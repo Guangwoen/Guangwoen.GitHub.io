@@ -40,7 +40,7 @@ social:
 #       url: "https://your-external-link.com"
 #   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
 code: true # Code highlight.
-math: true # Mathjax
+# math: true # Mathjax
 mermaid: true # Mermaid
 #   #  Locales of this theme.
 #   lang:
@@ -54,16 +54,6 @@ mermaid: true # Mermaid
     #   message: "说点什么吧..."
     #   reply: "回复"
 
-head_code: |
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-        }
-    });
-</script>
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # # The settings of comments.
 # comment:
@@ -82,3 +72,5 @@ head_code: |
 # smiley:
 #   enabled: true
 #   dir: img/smileys
+
+markdown: kramdown
