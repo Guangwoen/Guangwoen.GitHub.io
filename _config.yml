@@ -54,8 +54,16 @@ mermaid: true # Mermaid
     #   message: "说点什么吧..."
     #   reply: "回复"
 
-# head_code: |
-#   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
+head_code: |
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+        }
+    });
+</script>
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 # # The settings of comments.
 # comment:
