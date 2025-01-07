@@ -1,12 +1,12 @@
-# title: Your Site Title
-# description: The description of your site.
-# email: your-email@address.com
+title: 광원어디가
+description: Just a Blog for fun
+email: guangyuan418@gmail.com
 
-# author: Your name #  Default is your site title.
+author: Guangwoen #  Default is your site title.
 
 # # Your social accounts.
-# social:
-#   github: github_username
+social:
+  github: Guangwoen
 #   twitter: twitter_username
 #   facebook: facebook_username
 #   instagram: instagram_username
@@ -16,7 +16,7 @@
 # # Theme Settings
 
 # # Your site's logo. Will be shown on the left top of your page.
-# logo: /img/logo.svg
+logo: /img/logo.jpg
 # # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
 # img_prefix: https://your-img-cdn.com
 # # The RSS link of your blog.
@@ -39,20 +39,20 @@
 #       title: "External Link Title"
 #       url: "https://your-external-link.com"
 #   # Every default value in the following settings is false. You can set them globally here or separately in a single post/page/chapter.
-#   code: true # Code highlight.
-#   math: true # Mathjax
-#   mermaid: true # Mermaid
+  code: true # Code highlight.
+  math: true # Mathjax
+  mermaid: true # Mermaid
 #   #  Locales of this theme.
 #   lang:
 #     category_all: All # The first tag in the categories bar on the blog layout page. By clicking it all of your posts will be shown. Default is 'All'.
 #     blog_title: Blog # The text of ← back url on the top of the post layout.  Default is 'Home'.
 #     # The locales of the comment controls.
-#     comment:
-#       user: "昵称"
-#       email: "邮箱"
-#       url: "链接"
-#       message: "说点什么吧..."
-#       reply: "回复"
+    # comment:
+    #   user: "昵称"
+    #   email: "邮箱"
+    #   url: "链接"
+    #   message: "说点什么吧..."
+    #   reply: "回复"
 
 # head_code: |
 #   <!-- Extra codes in the head of your site pages. You can add your Google Analysis codes here! -->
@@ -74,5 +74,3 @@
 # smiley:
 #   enabled: true
 #   dir: img/smileys
-
-markdown: kramdown
