@@ -19,7 +19,7 @@ categories: [AI]
 根据条件概率公式，我们可以推导出：
 
 $$
-p(\theta \| D) = \frac{p(D \| \theta)p(\theta)}{p(D)}
+p(\theta | D) = \frac{p(D | \theta)p(\theta)}{p(D)}
 $$
 
 其中，$p(D \| \theta)$ 可以理解为已知参数 $\theta$ 时出现观测值 $D$ 的概率，也称为似然 (likelihood)
