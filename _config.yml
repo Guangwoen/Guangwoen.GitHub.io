@@ -72,3 +72,5 @@ mermaid: true # Mermaid
 # smiley:
 #   enabled: true
 #   dir: img/smileys
+
+markdown: kramdown
