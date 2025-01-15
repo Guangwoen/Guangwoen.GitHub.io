@@ -102,7 +102,7 @@ $$
 k(x) = \frac{1}{\sqrt{2\pi}} \exp{(-\frac{1}{2}x^2)}
 $$
 
-- 此时，概率密度函数就是 $\hat p(x) = \frac{1}{N} \sum_{i=1}^N \mathcal{N}(x|x_i, h^2I)$
+- 此时，概率密度函数就是 $\hat p(x) = \frac{1}{N} \sum_{i=1}^N \mathcal{N}(x\|x_i, h^2I)$
 
 ### 带宽
 
