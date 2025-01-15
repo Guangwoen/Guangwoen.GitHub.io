@@ -18,7 +18,7 @@ categories: [AI]
     - 先验 $p(Y)$ 是该状态发生的概率
 2. Observer 从随机变量 $X$ 测量观测值（Observations）或者特征（Features）
     - 类条件概率密度（Class Conditional Density (CCD)） 
-    - $p(X|Y)$ 是特定于一个类或者状态的特征
+    - $p(X\|Y)$ 是特定于一个类或者状态的特征
 3. Decision Function：用特征来推断状态
     - $g(X): X \to Y$
 4. Loss Function: 选择错误的 $Y$ 时会产生的惩罚（错误的决策）
@@ -38,7 +38,7 @@ $$
 \end{align*}
 $$
 
-- 其中，在已知 $x$ 的情况下，$R(x) = \sum_y p(y|x)L(g(x), y)$ 被称为条件风险 (conditional risk)
+- 其中，在已知 $x$ 的情况下，$R(x) = \sum_y p(y\|x)L(g(x), y)$ 被称为条件风险 (conditional risk)
 
 > 因为损失函数永远大于等于 0，因此最小化风险函数等同于最小化 $x$ 条件的条件风险 $R(x)$
 
@@ -94,7 +94,7 @@ $$
 
 #### 示例：2 分类问题
 
-根据我们目前的结论，在仅有 2 个分类的问题中，我们应当选择具有更大后验的那一类，也就是当 $p(x|0)p(0) > p(x|1)p(1)$ 时选择 0 ，其他情况选择 1
+根据我们目前的结论，在仅有 2 个分类的问题中，我们应当选择具有更大后验的那一类，也就是当 $p(x\|0)p(0) > p(x\|1)p(1)$ 时选择 0 ，其他情况选择 1
 
 此时：
 
@@ -102,7 +102,7 @@ $$
 p(x|0)p(0) > p(x|1)p(1) \Rightarrow \frac{p(x|0)}{p(x|1)} > \frac{p(1)}{p(0)}
 $$
 
-- $\frac{p(x|0)}{p(x|1)}$ 被称为似然比率 (likelihood ratio)
+- $\frac{p(x\|0)}{p(x\|1)}$ 被称为似然比率 (likelihood ratio)
 - $\frac{p(1)}{p(0)}$ 被称为阈值 (threshold)
 
 对于 0-1 分类问题的总结：
@@ -160,7 +160,7 @@ $$
 
 ## 高斯分类器 (Gaussian Classifier)
 
-假设我们有：$Y \in \{1, ..., c\}, p(y=j) = \pi_j, x \in \mathbb{R}^d$，并且 CCD 是高斯分布，也就是：$p(x|y=j) = \mathcal{N}(x|\mu_j, \Sigma_j)$
+假设我们有：$Y \in \{1, ..., c\}, p(y=j) = \pi_j, x \in \mathbb{R}^d$，并且 CCD 是高斯分布，也就是：$p(x\|y=j) = \mathcal{N}(x\|\mu_j, \Sigma_j)$
 
 基于 0-1 损失函数的 BDR：
 
